@@ -1,7 +1,10 @@
 site_name: Atendente Inteligente
-site_description: Documentação oficial do Atendente Inteligente
+site_description: Documentação oficial de Atendente Inteligente
 site_author: Atendente Inteligente
-site_url: https://docs.atendenteinteligente.com.br
+site_url: https://gustavocezargt.github.io/atend_int_docs/
+
+repo_url: https://github.com/gustavocezargt/atend_int_docs
+repo_name: atend_int_docs
 
 theme:
   name: material
