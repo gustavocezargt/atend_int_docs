@@ -1,4 +1,4 @@
-# 📦 MkDocs Template
+# 📦 Atendente Inteligente
 
 > [!WARNING]
 > This template is currently in maintenance mode. See [mkdocs-material#8523](https://github.com/squidfunk/mkdocs-material/issues/8523) for more information.
