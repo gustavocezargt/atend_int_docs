@@ -15,11 +15,13 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
+
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout do repositório
+
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Configurar Python
@@ -32,17 +34,29 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Gerar documentação
+      - name: Gerar site
         run: mkdocs build
 
-      - name: Configurar GitHub Pages
+      - name: Configurar Pages
         uses: actions/configure-pages@v5
 
-      - name: Enviar artefato
+      - name: Upload do site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: ./site
 
-      - name: Publicar no GitHub Pages
+  deploy:
+
+    needs: build
+
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+
+      - name: Publicar
         id: deployment
         uses: actions/deploy-pages@v4
