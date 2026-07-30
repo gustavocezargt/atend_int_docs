@@ -24,6 +24,7 @@ Os seguintes documentos fazem parte da documentação oficial da plataforma:
 
 - [Política de Privacidade](legal/politica-de-privacidade.md)
 - [Termos de Uso](legal/termos-de-uso.md)
+- [Política de Integração com o WhatsApp](legal/conexao-whatsapp-qrcode.md)
 
 ## Informações
 
