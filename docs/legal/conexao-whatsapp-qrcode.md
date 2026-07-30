@@ -4,7 +4,7 @@
 
 ---
 
-# 1. Objetivo
+## 1. Objetivo
 
 Este documento tem como objetivo esclarecer as modalidades de conexão entre a plataforma **Atendente Inteligente** e o WhatsApp, bem como informar suas características, limitações técnicas, responsabilidades das partes e boas práticas de utilização.
 
@@ -12,7 +12,7 @@ Ao utilizar qualquer modalidade de integração disponibilizada pela plataforma,
 
 ---
 
-# 2. Modalidades de conexão
+## 2. Modalidades de conexão
 
 O Atendente Inteligente poderá oferecer diferentes formas de integração com o WhatsApp.
 
@@ -24,7 +24,7 @@ Cada modalidade possui vantagens, limitações, requisitos técnicos e níveis d
 
 ---
 
-# 3. Conexão por QR Code
+## 3. Conexão por QR Code
 
 A conexão por QR Code permite que o assinante conecte rapidamente o número do WhatsApp utilizado em seu negócio à plataforma.
 
@@ -41,7 +41,7 @@ Essa modalidade foi desenvolvida para oferecer:
 
 ---
 
-# 4. Natureza da integração
+## 4. Natureza da integração
 
 A conexão por QR Code **não corresponde à WhatsApp Cloud API Oficial da Meta**.
 
@@ -51,7 +51,7 @@ Consequentemente, determinadas limitações dependem exclusivamente do funcionam
 
 ---
 
-# 5. Possíveis limitações
+## 5. Possíveis limitações
 
 Embora a plataforma empregue boas práticas para manter a estabilidade da conexão, poderão ocorrer situações como:
 
@@ -70,7 +70,7 @@ Essas situações podem ocorrer independentemente do correto funcionamento da pl
 
 ---
 
-# 6. Limitação de responsabilidade
+## 6. Limitação de responsabilidade
 
 O Atendente Inteligente fornece a infraestrutura necessária para realizar a integração entre o sistema e o WhatsApp.
 
@@ -95,7 +95,7 @@ Assim, o Atendente Inteligente não garante disponibilidade ininterrupta da cone
 
 ---
 
-# 7. Responsabilidades do assinante
+## 7. Responsabilidades do assinante
 
 É responsabilidade exclusiva do assinante:
 
@@ -110,7 +110,7 @@ O assinante reconhece que eventual bloqueio do número pelo WhatsApp decorre exc
 
 ---
 
-# 8. Comparação entre as modalidades de conexão
+## 8. Comparação entre as modalidades de conexão
 
 | Característica | QR Code | Meta Cloud API (quando disponível) |
 |----------------|---------|------------------------------------|
@@ -126,7 +126,7 @@ O assinante reconhece que eventual bloqueio do número pelo WhatsApp decorre exc
 
 ---
 
-# 9. Evolução da plataforma
+## 9. Evolução da plataforma
 
 O Atendente Inteligente está em constante evolução.
 
@@ -136,7 +136,7 @@ A disponibilização de novas modalidades poderá depender do plano contratado.
 
 ---
 
-# 10. Escolha da modalidade
+## 10. Escolha da modalidade
 
 Sempre que houver mais de uma modalidade disponível, caberá ao assinante escolher aquela mais adequada às necessidades do seu negócio.
 
@@ -144,7 +144,7 @@ Cada modalidade possui vantagens, limitações técnicas e custos próprios.
 
 ---
 
-# 11. Declaração de ciência
+## 11. Declaração de ciência
 
 Ao conectar um número do WhatsApp à plataforma, o assinante declara que:
 
@@ -156,6 +156,6 @@ Ao conectar um número do WhatsApp à plataforma, o assinante declara que:
 
 ---
 
-# 12. Contato
+## 12. Contato
 
 Em caso de dúvidas sobre este documento, entre em contato através dos canais oficiais de atendimento disponibilizados pelo Atendente Inteligente.
